@@ -5,7 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose'
 @Module({
   imports: [
     CourierModule,
-    MongooseModule.forRoot('mongodb://localhost:27017/courierdb'),
+    MongooseModule.forRoot('mongodb://localhost:27017/test'),
   ]
 })
 export class AppModule { }

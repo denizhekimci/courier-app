@@ -3,7 +3,7 @@ import { Document } from 'mongoose';
 
 export type CourierDocument = Courier & Document;
 
-@Schema()
+@Schema({ versionKey: false })
 export class Courier {
     @Prop()
     latitude: number;
